@@ -1,0 +1,51 @@
+/* Navbar Styling */
+.navbar {
+  background-color: #1e3a8a; /* Dark blue background */
+  padding: 15px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.nav-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-item:hover {
+  color: #facc15; /* Yellow color on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .nav-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+}

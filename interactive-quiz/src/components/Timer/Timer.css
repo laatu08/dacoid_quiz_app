@@ -1,0 +1,16 @@
+.timer-container {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.critical {
+  color: red;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0.5; }
+}

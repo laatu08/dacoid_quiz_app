@@ -1,0 +1,46 @@
+/* History.css */
+.history-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .history-container h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .history-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .history-item {
+    background-color: #fff;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 1.1rem;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .history-item:hover {
+    background-color: #e3f2fd;
+  }
+  
+  .history-date {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .history-score {
+    font-weight: bold;
+    color: #28a745;
+  }
+  

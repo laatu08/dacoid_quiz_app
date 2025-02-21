@@ -1,0 +1,52 @@
+/* Home.css */
+.home-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .home-container h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .home-container p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  .instructions {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .instructions li {
+    font-size: 1.1rem;
+    margin: 8px 0;
+    color: #444;
+  }
+  
+  .start-button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .start-button:hover {
+    background-color: #0056b3;
+  }
+  
