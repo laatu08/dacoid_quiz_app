@@ -26,7 +26,7 @@ An interactive quiz platform where users can attempt quizzes, receive instant fe
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone <your-repo-url>
+gh repo clone laatu08/dacoid_quiz_app
 cd interactive-quiz
 npm install
 npm run dev
